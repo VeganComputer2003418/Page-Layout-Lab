@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img:hover {
+  opacity: 0.5;
+}
+</style>
+</head>
+<body>
+
+<h1>Image Transparency</h1>
+<p>The opacity property is often used together with the :hover selector to change the
+opacity on mouse-over:</p>
+<img src="https://p300-americantownscom.netdna-ssl.com/img/article/
+md-mini-golf-1.jpg" alt="Mini Golf" width="500" height="333">
+<img src="https://midcountylanes.com/wp-content/uploads/2019/04/
+bowling-596766_1920.jpg" alt="Bowling" width="400" height="233">
+<img src="https://oiss.yale.edu/sites/default/files/styles/grid-image/
+public/airport_departure.jpg?itok=062HOL64" alt="Traveling" width="400"
+height="233">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>Hover Effect</h2>
+  <p>You can also add special effects on hover/mouse-over.</p>
+  <p><strong>Note:</strong> The w3-hover-sepia and w3-hover-grayscale classes are not
+supported in IE 11 and earlier versions.</p>
+
+<p>w3-hover-opacity:</p>
+<img src="https://p300-americantownscom.netdna-ssl.com/img/article/
+md-mini-golf-1.jpg" class="w3-hover-opacity" style="width:200px">
+<p>w3-hover-grayscale:</p>
+<img src="https://p300-americantownscom.netdna-ssl.com/img/article/
+md-mini-golf-1.jpg" class="w3-hover-grayscale" style="width:300px">
+<p>w3-hover-sepia:</p>
+<img src="https://p300-americantownscom.netdna-ssl.com/img/article/
+md-mini-golf-1.jpg" class="w3-hover-sepia" style="width:300px">
+
+<div class="w3-panel w3-red w3-hover-opacity">
+  <p>w3-hover-opacity</p>
+</div>
+<div class="w3-panel w3-red w3-hover-grayscale">
+  <p>w3-hover-grayscale</p>
+</div>
+<div class="w3-panel w3-red w3-hover-sepia">
+  <p>w3-hover-sepia</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+background: rgb{2,0,36};
+background:linear-gradient{90deg, rgba: 2,0,36,1 0%, rgba(10,251,236,1) 35%, rgba: 162,0,255,1 100%};
+
+/* CSS Centering Code with the Universal 
+Selector "*" */
+
+* {
+
+text-align: center;
+
+}
+
+/*Alternative CSS Centering Code with the 
+"body" Selector*/
+
+body {
+
+text-align: center;
+
+}
+
+/* Styling */
+
+body {
+  margin: auto;
+  width: 80px;
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #23ebff;
+}
+
+p {
+    font-weight: bold;
+}
+
+a:link {
+    color: salmon;
+    text-decoration: skyblue;
+}
+
+
+p {
+    font-weight: bold;
+}
+
+a:visited {
+    color: salmon;
+    text-decoration-color: skyblue;
+}
+
+joinBtn {
+   width: 10em;
+   height: 5ex;
+   background-color: salmon;
+   border: 2px solid skyblue;
+   border-radius: 10px;
+   font-weight: bold;
+   color: yellow;
+   cursor: pointer;
+}
+
+ joinBtn:hover {
+    background-color: black;
+}
+
+
